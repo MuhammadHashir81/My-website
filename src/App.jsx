@@ -3,6 +3,14 @@ import React from "react";
 const App = () => {
   return (
     <div>
+        <div className="flex w-full justify-between">
+          <div className="flex-1 bg-[pink] px-2">
+            <h1>yh tailwind ki classes use kr ra ab</h1>
+          </div>
+          <div className="flex-1 bg-[blue] text-white px-2">
+            <h1>tailwind is working</h1>
+          </div>
+        </div>
       <div className="main-div">
         <div>
           <h2 className="main-greetings">Hi there,</h2>
