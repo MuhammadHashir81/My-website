@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.main-div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img {
+  border-radius: 300px 250px 250px 20px;
+  /* box-shadow: 10px 15px 15px -10px rgba(50, 50, 50, 0.5); */
+  filter: drop-shadow(0px 0px 20px #e2d495);
+
+
+}
+
+.main-greetings {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.main-name {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.main-info {
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: -10px;
+}
+
+.name {
+  color: rgb(13, 119, 180);
+}
+
+
+.projects-div {
+  min-height: 90vh;
+
+}
+
+.all-projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-heading {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.book-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  min-width: 280px;
+  box-shadow: 0px 5px 15px -10px rgba(50, 50, 50, 0.5);
+  cursor: pointer;
+  border-radius: 15px;
+  transition: opacity 0.3s ease;
+  padding: 2.5%;
+  overflow: hidden;
+
+}
+
+.book-heading {
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.book-img {
+  height: 250px;
+  object-fit: contain
+}
+
+.book-div:hover {
+  transform: scale(1.05);
+  transition: all;
+  transition-duration: 300ms;
+}
